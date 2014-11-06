@@ -9,5 +9,4 @@ public class Exchanger {
         if (money.getCurrency() != exchangeRate.getFrom()) return null;
         return new Money(money.getAmount()*exchangeRate.getValue(), exchangeRate.getTo());
     }
-    
 }
